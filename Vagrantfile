@@ -1,3 +1,4 @@
+# Custom vagrant machine for devops - Built on Ubumtu 22.04
 Vagrant.configure("2") do |config|
   config.vm.define "udevops" do |devbox|
     devbox.vm.box = "mialeevs/ubuntu2204"
